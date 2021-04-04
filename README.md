@@ -1,8 +1,11 @@
 # MMM-ColorIndicator
-A MagicMirror² module to validate incoming data and send specified (color)data. 
+A MagicMirror² module to validate incoming data and send specified (color)data.
 
-# Config
+## Installation
+1. Navigate to the `/modules` folder of you MagicMirror²
+2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-ColorIndicator.git`
 
+## Config
 <table>
   <thead>
     <tr>
@@ -25,3 +28,22 @@ A MagicMirror² module to validate incoming data and send specified (color)data.
     </tr>
   </tbody>
 </table>
+
+
+To use this module, add it to the modules array in the `config/config.js` file:
+```javascript
+  {
+    module: 'MMM-ColorIndicator',
+    position: 'top_right', // any possible region
+    config: {
+      msgin: "",
+      msgout: "",
+      limits:[
+        [0, "0000FF"]
+      ]
+    },
+  },
+```
+
+## Update
+Navigate to the folder of the module in the `/modules` folder and get the latest version using the command `git pull`.
