@@ -1,0 +1,12 @@
+{
+    "name": "MMM-ColorIndicator",
+    "version": "1.0.0",
+    "description": "A MagicMirror² module to validate incoming data and send specified (color)data.",
+    "main": "MMM-ColorIndicator.js",
+    "author": "amonelias",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amonelias/MMM-ColorIndicator"
+      }
+  }
